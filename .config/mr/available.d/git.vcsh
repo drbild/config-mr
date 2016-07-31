@@ -1,2 +1,5 @@
 [$HOME/.config/vcsh/repo.d/git.git]
 checkout = vcsh clone git@github.com:drbild/config-git.git git
+
+[$HOME/.config/mr/repo.d/git-number]
+checkout = git clone git@github.com:holygeek/git-number.git git-number
