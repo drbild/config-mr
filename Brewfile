@@ -1,0 +1,2 @@
+brew "mr"
+brew "vcsh"
