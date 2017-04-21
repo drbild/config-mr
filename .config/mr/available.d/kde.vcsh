@@ -1,0 +1,3 @@
+[$HOME/.config/vcsh/repo.d/kde.git]
+checkout = vcsh clone git@github.com:drbild/config-kde.git kde
+skip = [ "${XDG_CURRENT_DESKTOP}" != "KDE" ]
