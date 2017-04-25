@@ -1,6 +1,8 @@
 cask_args appdir: '/Applications'
 
+tap 'caskroom/cask'
 tap 'homebrew/bundle'
+brew 'mas'
 
 brew 'mr'
 brew 'vcsh'
@@ -12,20 +14,24 @@ brew 'cask'
 brew 'ccache'
 brew 'cmake'
 brew 'coreutils'
-brew 'emacs'
+brew 'emacs', args: ['with-cocoa']
 brew 'git'
 brew 'gnupg2'
-brew 'gnu-sed'
+brew 'gnu-sed', args: ['with-default-names']
 brew 'htop'
 brew 'ispell'
 brew 'jq'
 brew 'kpcli'
 brew 'llvm'
+brew 'openssh'
+brew 'python'
 brew 'shellcheck'
 brew 'terraform'
 brew 'tmux'
 brew 'watch'
+brew 'wget'
 brew 'zsh'
+brew 'zsh-completions'
 
 cask 'amethyst'
 cask 'google-chrome'
@@ -42,3 +48,6 @@ cask 'ubar'
 cask 'vagrant'
 cask 'vagrant-manager'
 cask 'virtualbox'
+
+mas 'iMovie', id: 408981434
+mas 'Keynote', id: 409183694
