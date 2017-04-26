@@ -14,6 +14,7 @@ brew 'cask'
 brew 'ccache'
 brew 'cmake'
 brew 'coreutils'
+brew 'docker-completion'
 brew 'emacs', args: ['with-cocoa']
 brew 'git'
 brew 'gnupg2'
