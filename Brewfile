@@ -16,6 +16,7 @@ brew 'cmake'
 brew 'coreutils'
 brew 'docker-completion'
 brew 'emacs', args: ['with-cocoa']
+brew 'ghostscript'
 brew 'git'
 brew 'gnupg2'
 brew 'gnu-sed', args: ['with-default-names']
