@@ -3,3 +3,6 @@ checkout = vcsh clone git@github.com:drbild/config-git.git git
 
 [$HOME/.config/mr/repo.d/git-number]
 checkout = git clone git@github.com:holygeek/git-number.git git-number
+
+[$HOME/.config/mr/repo.d/diff-so-fancy]
+checkout = git clone git@github.com:so-fancy/diff-so-fancy.git diff-so-fancy
